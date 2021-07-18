@@ -1,83 +1,110 @@
-*{
-    box-sizing: border-box;
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    font-family: Arial;
-    padding: 10px;
-    background-color: whitesmoke
+header {
+    height: 100px;
+    margin-bottom: 30px;
+    background: #423F3E;
+
 }
 
-header{
-    padding: 30px;
-    text-align: center;
-    background-color: #f1f1f1;
+nav {
+    margin: 0px auto;
+    width: 960px;
+    
 }
 
-nav{
-    background-color: #333;
-    margin-bottom: 20px;
-}
-
-nav ul{
-    position: relative;
-}
-
-nav ul li{
-    display:inline-block;
-    padding: 20px;
-}
-
-nav ul li:last-child{
-    /* background-color: red; */
-     position: absolute;
-     right:50px;
-}
-
-
-nav ul li a{
-    color:#f2f2f2;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-
-#left-colomn{
+nav img {
+    margin-top: 15px;
+    margin-right: 30px;
     float: left;
-  
 }
 
-#center-colomn{
-    float: center;
+nav li {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 70px;
+}
+
+
+
+
+main {
+    width: 960px;
+    margin: 0px auto;
+}
+a {
+    text-decoration: none;
+    color: white;
 
 }
 
-#right-colomn{
+main ul {
+    padding : 0px;
+    display: flex;    
+    justify-content: space-between;
+    margin: 30px auto;
+
+}
+
+main li {    
+    display: inline-block;
+    margin: 30px, 30px, 30px, 30px;
+}
+
+
+section div {    
+    padding-left: 30px;
+    margin-bottom: 30px;
+    width: 50%;
     float: right;
 }
 
+section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
-
-p{
-    font-weight: bold;
-    text-align: justify;
+section p {
+    height: 250px;
+    overflow: scroll;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 
+section button {
+    background: #000;
+    padding: 10px 30px;
+    border-radius: 3px;
+    transition: 350ms;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: #fff;
 
-header{
-    clear: both;
-    padding: 20px;
-    text-align: center;
-    background-color: gray;
-    margin-top: 20px;
+}
+section {
+    margin-top: 30px;
+    display: block;
 }
 
-footer{
-    clear: both;
-    padding: 20px;
-    text-align: center;
-    background-color: gray;
-    margin-top: 20px;
+section img {
+    width: 45%;
+    display: inline-block;  
+    margin-bottom: 30px;
+}
+
+section button:hover {
+    background: #423F3E;
+}
+
+
+footer {
+    background: #423F3E;
+    height: 100px;
+
 }
